@@ -1,0 +1,129 @@
+<svg viewBox="0 0 820 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="820" height="420" fill="#F8F9FA"/>
+  <text x="410" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1A1A2E">알림 화면 3종 — 미구현 (feat: 15_notifications)</text>
+
+  <!-- ===== LOADING ===== -->
+  <rect x="20" y="50" width="250" height="350" rx="10" fill="#fff" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="145" y="72" text-anchor="middle" font-size="12" font-weight="600" fill="#546E7A">Loading</text>
+
+  <!-- Phone shell -->
+  <rect x="35" y="82" width="220" height="304" rx="16" fill="#1A1A2E"/>
+  <rect x="43" y="90" width="204" height="288" rx="10" fill="#FAFAFA"/>
+
+  <!-- Status bar -->
+  <rect x="43" y="90" width="204" height="24" rx="10" fill="#FAFAFA"/>
+  <text x="55" y="106" font-size="8" fill="#546E7A">9:41</text>
+
+  <!-- AppBar -->
+  <rect x="43" y="114" width="204" height="40" fill="#FFFFFF"/>
+  <text x="145" y="139" text-anchor="middle" font-size="12" font-weight="600" fill="#1A1A2E">알림</text>
+  <line x1="43" y1="154" x2="247" y2="154" stroke="#E0E0E0" stroke-width="0.5"/>
+
+  <!-- Skeleton items -->
+  <g opacity="0.6">
+    <rect x="55" y="164" width="24" height="24" rx="12" fill="#E0E0E0"/>
+    <rect x="87" y="166" width="120" height="8" rx="4" fill="#E0E0E0"/>
+    <rect x="87" y="180" width="80" height="6" rx="3" fill="#EEEEEE"/>
+    <line x1="43" y1="198" x2="247" y2="198" stroke="#F5F5F5" stroke-width="1"/>
+
+    <rect x="55" y="208" width="24" height="24" rx="12" fill="#E0E0E0"/>
+    <rect x="87" y="210" width="130" height="8" rx="4" fill="#E0E0E0"/>
+    <rect x="87" y="224" width="90" height="6" rx="3" fill="#EEEEEE"/>
+    <line x1="43" y1="242" x2="247" y2="242" stroke="#F5F5F5" stroke-width="1"/>
+
+    <rect x="55" y="252" width="24" height="24" rx="12" fill="#E0E0E0"/>
+    <rect x="87" y="254" width="100" height="8" rx="4" fill="#E0E0E0"/>
+    <rect x="87" y="268" width="70" height="6" rx="3" fill="#EEEEEE"/>
+    <line x1="43" y1="286" x2="247" y2="286" stroke="#F5F5F5" stroke-width="1"/>
+
+    <rect x="55" y="296" width="24" height="24" rx="12" fill="#E0E0E0"/>
+    <rect x="87" y="298" width="115" height="8" rx="4" fill="#E0E0E0"/>
+    <rect x="87" y="312" width="85" height="6" rx="3" fill="#EEEEEE"/>
+  </g>
+
+  <!-- Shimmer overlay hint -->
+  <rect x="43" y="154" width="204" height="180" fill="url(#shimmer)" opacity="0.15"/>
+  <text x="145" y="375" text-anchor="middle" font-size="9" fill="#90A4AE">Shimmer skeleton</text>
+
+  <!-- ===== EMPTY ===== -->
+  <rect x="285" y="50" width="250" height="350" rx="10" fill="#fff" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="410" y="72" text-anchor="middle" font-size="12" font-weight="600" fill="#546E7A">Empty</text>
+
+  <!-- Phone shell -->
+  <rect x="300" y="82" width="220" height="304" rx="16" fill="#1A1A2E"/>
+  <rect x="308" y="90" width="204" height="288" rx="10" fill="#FAFAFA"/>
+
+  <!-- Status bar -->
+  <text x="320" y="106" font-size="8" fill="#546E7A">9:41</text>
+
+  <!-- AppBar -->
+  <rect x="308" y="114" width="204" height="40" fill="#FFFFFF"/>
+  <text x="410" y="139" text-anchor="middle" font-size="12" font-weight="600" fill="#1A1A2E">알림</text>
+  <line x1="308" y1="154" x2="512" y2="154" stroke="#E0E0E0" stroke-width="0.5"/>
+
+  <!-- Empty state illustration -->
+  <circle cx="410" cy="230" r="38" fill="#E3F2FD"/>
+  <text x="410" y="238" text-anchor="middle" font-size="30">🔔</text>
+  <text x="410" y="286" text-anchor="middle" font-size="12" font-weight="600" fill="#37474F">아직 알림이 없어요</text>
+  <text x="410" y="302" text-anchor="middle" font-size="10" fill="#78909C">코스를 완주하거나 도장을</text>
+  <text x="410" y="315" text-anchor="middle" font-size="10" fill="#78909C">수집하면 알림이 와요!</text>
+
+  <!-- CTA button -->
+  <rect x="348" y="325" width="124" height="32" rx="16" fill="#006781"/>
+  <text x="410" y="345" text-anchor="middle" font-size="11" font-weight="600" fill="#FFFFFF">코스 둘러보기</text>
+
+  <text x="410" y="375" text-anchor="middle" font-size="9" fill="#90A4AE">Empty state + CTA</text>
+
+  <!-- ===== SUCCESS ===== -->
+  <rect x="550" y="50" width="250" height="350" rx="10" fill="#fff" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="675" y="72" text-anchor="middle" font-size="12" font-weight="600" fill="#546E7A">Success</text>
+
+  <!-- Phone shell -->
+  <rect x="565" y="82" width="220" height="304" rx="16" fill="#1A1A2E"/>
+  <rect x="573" y="90" width="204" height="288" rx="10" fill="#FAFAFA"/>
+
+  <!-- Status bar -->
+  <text x="585" y="106" font-size="8" fill="#546E7A">9:41</text>
+
+  <!-- AppBar -->
+  <rect x="573" y="114" width="204" height="40" fill="#FFFFFF"/>
+  <text x="675" y="139" text-anchor="middle" font-size="12" font-weight="600" fill="#1A1A2E">알림</text>
+  <rect x="728" y="122" width="16" height="16" rx="8" fill="#E53935"/>
+  <text x="736" y="133" text-anchor="middle" font-size="8" fill="white">3</text>
+  <line x1="573" y1="154" x2="777" y2="154" stroke="#E0E0E0" stroke-width="0.5"/>
+
+  <!-- Unread badge indicator -->
+  <rect x="573" y="154" width="204" height="44" fill="#E8F5FE"/>
+  <circle cx="594" cy="176" r="10" fill="#006781"/>
+  <text x="594" y="180" text-anchor="middle" font-size="8" fill="white">★</text>
+  <text x="612" y="170" font-size="10" font-weight="600" fill="#1A1A2E">도장 획득!</text>
+  <text x="612" y="184" font-size="9" fill="#546E7A">설악산 코스에서 첫 도장 획득 · 방금</text>
+  <line x1="573" y1="198" x2="777" y2="198" stroke="#F0F0F0" stroke-width="1"/>
+
+  <!-- Read items -->
+  <rect x="573" y="198" width="204" height="42" fill="#FFFFFF"/>
+  <circle cx="594" cy="219" r="10" fill="#90A4AE"/>
+  <text x="594" y="223" text-anchor="middle" font-size="8" fill="white">🏃</text>
+  <text x="612" y="213" font-size="10" font-weight="500" fill="#546E7A">코스 완주</text>
+  <text x="612" y="227" font-size="9" fill="#90A4AE">한강 코스 5km 완주 · 어제</text>
+  <line x1="573" y1="240" x2="777" y2="240" stroke="#F5F5F5" stroke-width="1"/>
+
+  <rect x="573" y="240" width="204" height="42" fill="#FFFFFF"/>
+  <circle cx="594" cy="261" r="10" fill="#90A4AE"/>
+  <text x="594" y="265" text-anchor="middle" font-size="8" fill="white">🎯</text>
+  <text x="612" y="255" font-size="10" font-weight="500" fill="#546E7A">새 코스 추천</text>
+  <text x="612" y="269" font-size="9" fill="#90A4AE">강릉 바우길 코스 추가 · 3일 전</text>
+  <line x1="573" y1="282" x2="777" y2="282" stroke="#F5F5F5" stroke-width="1"/>
+
+  <rect x="573" y="282" width="204" height="42" fill="#FFFFFF"/>
+  <circle cx="594" cy="303" r="10" fill="#90A4AE"/>
+  <text x="594" y="307" text-anchor="middle" font-size="8" fill="white">🔔</text>
+  <text x="612" y="297" font-size="10" font-weight="500" fill="#546E7A">이벤트 알림</text>
+  <text x="612" y="311" font-size="9" fill="#90A4AE">주말 걷기 이벤트 참여 · 1주 전</text>
+
+  <text x="675" y="375" text-anchor="middle" font-size="9" fill="#90A4AE">Success: 읽음/안읽음 구분 + 타입 아이콘</text>
+
+  <!-- Legend -->
+  <rect x="20" y="408" width="780" height="10" rx="2" fill="none"/>
+  <text x="410" y="416" text-anchor="middle" font-size="9" fill="#78909C">관련 이슈: #361 P1 · IMPLEMENTATION_GAPS 15_Notifications 3화면 미구현</text>
+</svg>

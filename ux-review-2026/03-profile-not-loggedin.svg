@@ -1,0 +1,83 @@
+<svg viewBox="0 0 580 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="580" height="420" fill="#F8F9FA"/>
+  <text x="290" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1A1A2E">프로필 탭 — 미로그인 vs 로그인 상태</text>
+
+  <!-- ===== NOT LOGGED IN ===== -->
+  <rect x="20" y="50" width="255" height="355" rx="10" fill="#fff" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="147" y="72" text-anchor="middle" font-size="12" font-weight="600" fill="#D32F2F">현재 — 미구현 (빈 화면)</text>
+
+  <!-- Phone shell -->
+  <rect x="35" y="82" width="225" height="308" rx="16" fill="#1A1A2E"/>
+  <rect x="43" y="90" width="209" height="292" rx="10" fill="#FAFAFA"/>
+
+  <!-- Status bar -->
+  <text x="55" y="106" font-size="8" fill="#546E7A">9:41</text>
+
+  <!-- AppBar -->
+  <rect x="43" y="114" width="209" height="40" fill="#FFFFFF"/>
+  <text x="147" y="139" text-anchor="middle" font-size="12" font-weight="600" fill="#1A1A2E">내 정보</text>
+  <line x1="43" y1="154" x2="252" y2="154" stroke="#E0E0E0" stroke-width="0.5"/>
+
+  <!-- Empty white screen -->
+  <rect x="43" y="154" width="209" height="192" fill="#FFFFFF"/>
+  <text x="147" y="256" text-anchor="middle" font-size="11" fill="#BDBDBD">⬜ 빈 화면</text>
+  <text x="147" y="272" text-anchor="middle" font-size="9" fill="#BDBDBD">(구현 없음)</text>
+
+  <!-- Bottom nav -->
+  <rect x="43" y="346" width="209" height="36" fill="#FFFFFF"/>
+  <line x1="43" y1="346" x2="252" y2="346" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="65" y="368" text-anchor="middle" font-size="7" fill="#90A4AE">홈</text>
+  <text x="105" y="368" text-anchor="middle" font-size="7" fill="#90A4AE">지도</text>
+  <circle cx="147" cy="358" r="12" fill="#006781"/>
+  <text x="147" y="362" text-anchor="middle" font-size="10" fill="white">▶</text>
+  <text x="189" y="368" text-anchor="middle" font-size="7" fill="#90A4AE">도장</text>
+  <text x="229" y="368" text-anchor="middle" font-size="7" font-weight="700" fill="#006781">내정보</text>
+
+  <text x="147" y="398" text-anchor="middle" font-size="9" fill="#EF5350">IMPLEMENTATION_GAPS: 12 Profile / Not Logged In ✗</text>
+
+  <!-- ===== LOGGED IN (target) ===== -->
+  <rect x="305" y="50" width="255" height="355" rx="10" fill="#fff" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="432" y="72" text-anchor="middle" font-size="12" font-weight="600" fill="#2E7D32">목표 — Not Logged In 화면</text>
+
+  <!-- Phone shell -->
+  <rect x="320" y="82" width="225" height="308" rx="16" fill="#1A1A2E"/>
+  <rect x="328" y="90" width="209" height="292" rx="10" fill="#FAFAFA"/>
+
+  <!-- Status bar -->
+  <text x="340" y="106" font-size="8" fill="#546E7A">9:41</text>
+
+  <!-- AppBar -->
+  <rect x="328" y="114" width="209" height="40" fill="#FFFFFF"/>
+  <text x="432" y="139" text-anchor="middle" font-size="12" font-weight="600" fill="#1A1A2E">내 정보</text>
+  <line x1="328" y1="154" x2="537" y2="154" stroke="#E0E0E0" stroke-width="0.5"/>
+
+  <!-- Avatar placeholder -->
+  <rect x="328" y="154" width="209" height="82" fill="#F5F5F5"/>
+  <circle cx="432" cy="190" r="28" fill="#CFD8DC"/>
+  <text x="432" y="198" text-anchor="middle" font-size="22">👤</text>
+
+  <!-- Login prompt -->
+  <rect x="328" y="236" width="209" height="110" fill="#FFFFFF"/>
+  <text x="432" y="262" text-anchor="middle" font-size="13" font-weight="700" fill="#1A1A2E">로그인하고 시작해요</text>
+  <text x="432" y="279" text-anchor="middle" font-size="10" fill="#78909C">러닝 기록·도장·크리쳐 도감을</text>
+  <text x="432" y="292" text-anchor="middle" font-size="10" fill="#78909C">안전하게 보관할 수 있어요</text>
+
+  <!-- Login button -->
+  <rect x="358" y="303" width="148" height="36" rx="18" fill="#006781"/>
+  <text x="432" y="325" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">카카오로 로그인</text>
+
+  <!-- Sign up link -->
+  <text x="432" y="355" text-anchor="middle" font-size="10" fill="#78909C">회원가입 →</text>
+
+  <!-- Bottom nav -->
+  <rect x="328" y="346" width="209" height="36" fill="#FFFFFF"/>
+  <line x1="328" y1="346" x2="537" y2="346" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="350" y="368" text-anchor="middle" font-size="7" fill="#90A4AE">홈</text>
+  <text x="390" y="368" text-anchor="middle" font-size="7" fill="#90A4AE">지도</text>
+  <circle cx="432" cy="358" r="12" fill="#006781"/>
+  <text x="432" y="362" text-anchor="middle" font-size="10" fill="white">▶</text>
+  <text x="474" y="368" text-anchor="middle" font-size="7" fill="#90A4AE">도장</text>
+  <text x="514" y="368" text-anchor="middle" font-size="7" font-weight="700" fill="#006781">내정보</text>
+
+  <text x="432" y="398" text-anchor="middle" font-size="9" fill="#2E7D32">ProfileScreen Not Logged In 구현 필요</text>
+</svg>
